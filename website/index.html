@@ -24,6 +24,21 @@
   <!-- Custom styles for this template -->
   <link href="css/beaver.min.css" rel="stylesheet">
 
+  <style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  tr:hover {background-color:#f2f2f2;}
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -39,13 +54,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#team">Meet the Team</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#schedule">Schedule</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About Us</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#team">Roster</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact Us</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -61,6 +79,120 @@
       <h2 class="font-weight-light mb-0">The home of the eager beaver</h2>
     </div>
   </header>
+
+
+  <!-- Team Schedule Section -->
+  <section class="bg-primary text-black" id="schedule">
+    <div class="container-fluid text-center bg-grey">
+      <h2 class="text-center text-uppercase text-secondary mb-0">2019 Schedule</h2>
+      <hr class="star-dark mb-5">
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Game</th>
+          <th>Venue</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td>23/04/2019</td>
+          <td>Beavers @ Brew Jays</td>
+          <td>Wandsworth Common (Bellevue Road)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>30/04/2019</td>
+          <td>London Raiders Green @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14/05/2019</td>
+          <td>Pimlico Parrots @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>21/05/2019</td>
+          <td>The Jets @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>30/05/2019</td>
+          <td>Beavers @ Meteor Green</td>
+          <td>Blackhorse Road</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>04/06/2019</td>
+          <td>London Raiders Orange @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>13/06/2019</td>
+          <td>Beavers @ Diamond Dogs</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>19/06/2019</td>
+          <td>Beavers @ London Raiders Green</td>
+          <td>Colliers Wood Recreation Ground</td>
+          <td></td>
+        </tr>
+         <tr>
+          <td>02/07/2019</td>
+          <td>Beavers @ Pimlico Parrots</td>
+          <td>Parliament Hill</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11/07/2019</td>
+          <td>Beavers @ The Jets</td>
+          <td>Regents Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>16/07/2019</td>
+          <td>Meteor Green @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>25/07/2019</td>
+          <td>Beavers @ London Raiders Orange</td>
+          <td>Wandsworth Common (Bellevue Road)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>30/07/2019</td>
+          <td>Diamond Dogs @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>07/08/2019</td>
+          <td>Beavers @ BYOB</td>
+          <td>Wandsworth Common (John Archer Way)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>13/08/2019</td>
+          <td>Brew Jays @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>20/08/2019</td>
+          <td>BYOB @ Beavers</td>
+          <td>Clissold Park</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
 
   <!-- Team Grid Section -->
   <section class="team" id="team">
@@ -175,7 +307,7 @@
               </div>
             </div>
             <img class="img-fluid rounded-circle" src="img/team/ryan2.jpg" alt="Ryan">
-              <h4>New Ryan</h4>
+              <h4>Ryan Lynch</h4>
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -262,10 +394,22 @@
         <h4 class="text-center text-uppercase text-white">Two Canadians and an Australian walked into a bar...</h4>
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">In January 2018, after a number of beers, the idea for the Beavers Softball team was born. The Queen Beavers then got to work setting up the now infamous team.</p>
+          <p class="lead">12th January 2018: the night was cold and the beer was flowing. On this special night (with no influence of alcohol at all) three queen beavers conceived an idea that would change the course of history forever. An idea so great, so brilliant that it birthed the greatest group that ever was.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <p class="lead">“Hey, let’s start our own softball team!”</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">Several more drinks and some (partially) sober planning later, and the GLSML Beavers were born.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">The queens were then tasked with the job of recruiting their clunge* of beavers. They sought out to build a super team, a team so talented, so unbeatable that they would be the ultimate force to be reckoned with... at the pub.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">The 2018 Beavers proved their infinite talents. Balls were hit. Games were played. But most importantly fun was had and the team proved themselves to be the most fun and friendly team in the league.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">*clunge: a badass group of beavers (I encourage you to Google this)</p>
         </div>
       </div>
     </div>
